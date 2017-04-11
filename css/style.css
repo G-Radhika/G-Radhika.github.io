@@ -1,0 +1,231 @@
+/*header {
+  background: url(./images/indian-design.jpg) repeat;
+}*/
+/*jQuery .addClass('animated bounce') Animate.css*/
+body {
+  margin: 0px;
+  font-family: 'Muli', sans-serif;
+  background: #d2d0d2;
+}
+
+#menu-box {
+  width: 40px;
+  height: 40px;
+  background-color: #6facff;
+  -webkit-border-radius: 10%;
+      border-radius: 10%;
+  margin-bottom: 2em;
+}
+
+.logo {
+  /*background-color: #ea2f00;*/
+  width: 100%;
+  padding: 0.5%;
+  background: #382604;
+  height: 3em;
+  position: fixed;
+  opacity: 1;
+  display: flex;
+}
+
+nav {
+  position: absolute;
+  display: flex;
+  margin-right: 90px;
+}
+.nav-list {
+  display: flex;
+  position: absolute;
+  margin-left: 4.5em;
+}
+
+.list-item {
+  width: 25%;
+  text-align: center;
+
+}
+
+.list-item a {
+  /*color: #dddddd;*/
+  text-decoration: none;
+  font-size: 1.2em;
+  margin-right: 1em;
+  margin-left: 2em; 
+  color: #d2d0d2;
+
+}
+
+.list-item a:hover{
+  color: #ffffff;
+}
+
+.list-item a:active {
+  color: #ffffff;
+}
+
+.list-item {
+  list-style-type: none;
+}
+
+#home, #portfolio{ width: 100%; }
+#home{  
+  background:url('../images/homebackground.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+  height: 400px;
+  margin: 0;
+  padding: 200px 0 260px 0;
+}
+#portfolio{
+  /*background-color: #fff;*/
+  color: #382604;
+  /*height: 800px;*/
+  margin: 0 auto;
+  overflow: hidden;
+  /*padding: 200px 0;*/
+  text-align: center;
+  font-size: 1.5em;
+}
+.portfolio-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+}
+
+.portfolio-images a {
+  /*width: 29%;
+  height: 12%;
+  border: 0.2em solid #a6a6a6;*/
+  display: inline;
+  margin: 0.5em;
+  margin-left: 1.5%;
+  text-decoration: none;
+}
+
+.portfolio-images img {
+  -webkit-transition:opacity 0.26s ease-out;
+    -moz-transition:opacity 0.26s ease-out;
+    -ms-transition:opacity 0.26s ease-out;
+    -o-transition:opacity 0.26s ease-out;
+    transition:opacity 0.26s ease-out;
+    transition:500ms;
+}
+
+.portfolio-images a:hover img {
+  opacity: 0.4;
+}
+
+.portfolio-images a:hover p {
+  opacity: 1;
+}
+
+.portfolio-images a:hover a{
+  /*opacity:1;*/
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+    z-index:2;
+    position:relative;
+    transition:500ms;
+}
+
+.portfolio-images p {
+    /*position:absolute;*/
+    opacity:0;
+    top:50%;
+    left:-8%;
+    padding:2em;
+    text-align:center;
+    font-size:0.8em;
+    line-height:20px;
+    margin-top:-110px;
+    z-index:3;
+    background:rgba(255,255,255, 0);
+    transition:1s;
+
+}
+
+.img-size {
+  /*width: 19em;
+  height: 14em;*/
+  width: 300px;
+  height: 300px;
+
+}
+
+.img-space {
+  margin-left: 1.5%;
+}
+
+.fa {
+  color: #382604;
+  size: 5em;
+}
+
+.fa-github {
+  size: 5em;
+}
+
+#nameHead {
+  font-family: 'Dancing Script', cursive;
+  color: #382604;
+  font-size: 6em;
+  margin-top: 0px;
+  height: 0.2em;
+}
+
+#home span {
+  color: #382604;
+  font-size: 1.2em;
+}
+
+#home i {
+  margin-left: 1em;
+}
+
+.main-content {
+  margin-left: 1em;
+}
+
+.social-icons {
+  margin-top: 10em;
+}
+
+footer {
+  background: #382604;
+  height: 7em;
+  color: #d2d0d2;
+  font-size: 0.8em;
+  text-align: center;
+  padding-top: 5em;
+
+}
+
+.portfolio-images div {
+  width: 33%;
+}
+
+.initials {
+  background: #4682B4;
+  color: #382604;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3em;
+  height: 3em;
+  font-size: 2.5em;
+  border-radius: 50%;
+}
+
+.portfolio-item {
+  margin-bottom: 4em;
+}
+
